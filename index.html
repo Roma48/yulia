@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Изображения и ссылки</title>
+    <link HREF="css/minimal-table.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<img src="img/WordPress-website.jpg" alt="Website" width="360">
+<a href="test.html">Test</a>
+<h1>Таблица</h1>
+<table border="1">
+    <colgroup>
+        <col style="background-color: aqua" span="3">
+        <col>
+        <col>
+    </colgroup>
+<tr style="background-color: lightpink">
+    <th>Первая ячейка</th>
+      <th>Вторая ячейка</th>
+        <th>Третья ячейка</th>
+</tr>
+    <tr>
+        <td colspan="2">Первая ячейка</td>
+         <!-- <td>Вторая ячейка</td> -->
+            <td rowspan="2">Третья ячейка</td>
+    </tr>
+    <tr>
+        <td>Первая ячейка</td>
+          <td>Вторая ячейка</td>
+          <!-- <td>Третья ячейка</td>-->
+    </tr>
+</table>
+<br>
+<br>
+<form action="/" method="">
+<input type="text" name="NamePerson" maxlength="10" placeholder="Julia"><br>
+    <input type="text" name="FirstName" maxlength="10" placeholder="Palii"><br>
+    <input type="password" name="Pass" maxlength="20"><br>
+      <label for="yes">Да</label> <input id="yes" type="checkbox" name="yes">
+      <label for="no">Нет</label><input id="no" type="checkbox" name="no">
+      <label for="noth">Ничего</label> <input id="noth" type="checkbox" name="nothing"><br>
+    <input type="radio" name="11"><br>
+    <input type="radio" name="11"><br>
+    <input type="radio" name="11"><br>
+    <input type="reset" name="reset" value="Сбросить">
+    <input type="submit" name="submit" value="Отправить">
+    <button type="submit">Отправить позже</button><br><br>
+
+    <textarea name="text" cols="30" rows="5" placeholder="Добавить коментарий"></textarea><br>
+    <select name="test">
+        <option>Вариант1</option>
+        <option>Вариант2</option>
+        <option>Вариант3</option>
+        <option>Вариант4</option>
+        <option>Вариант5</option>
+    </select>
+
+</form>
+
+</body>
+</html>

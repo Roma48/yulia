@@ -1,0 +1,274 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+header{
+    background-color: #384F8E;
+    padding-bottom: 30px;
+    float: none;
+}
+div.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 10px;
+    float: none;
+}
+div.col1{
+    width: 30%;
+    float: left;
+}
+div.col2{
+    width: 70%;
+    float: left;
+    padding-top: 20px;
+}
+#logo {
+    width: 30%;
+    /*height: 77px;*/
+    display: inline-block;
+}
+img {
+    height: auto;
+    max-width: 100%;
+    padding-top: 10px;
+}
+nav ul{
+    list-style-type: none;
+    padding-top: 1px;
+    margin: 0;
+}
+nav {
+    /*height: 50px;*/
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+}
+nav li {
+    display: inline-block;
+}
+nav a{
+    font-size: 1.4em;
+    font-weight: normal;
+    display: inline;
+    color: lightgray;
+    padding: 0 14px;
+    margin-top: 0;
+    text-decoration: none;
+}
+nav a:hover {
+    color: white;
+}
+nav * {
+    vertical-align: middle;
+}
+nav a.test1{
+    color: white;
+}
+header h1 {
+    width: 100%;
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+    padding-top: 30px;
+    clear: both;
+    text-align: center;
+}
+header h2 {
+    width: 100%;
+    font-size: 1em;
+    color: white;
+    font-weight: lighter;
+    padding-top: 30px;
+    clear: both;
+    text-align: center;
+}
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+    overflow: hidden;
+    text-align: center;
+}
+.faq main {
+    margin-top: 75px;
+    max-width: 65%;
+    float: right;
+}
+.faq aside {
+    flex-shrink: 0;
+    width: 390px;
+    margin-top: 60px;
+    float: left;
+    max-width: 30%;
+}
+.faq aside .btn {
+    display: block;
+    width: 176px;
+    height: 49px;
+    margin-top: 20px;
+    font: 700 14px/45px "Open Sans";
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.faq aside .btn-register {
+    border: 2px solid #f16868;
+    color:white;
+    background-color: #f16868;
+}
+.faq aside .btn-register:hover {
+    border: 2px solid #dd5454;
+    color: white;
+    background-color: #dd5454;
+}
+.faq aside .btn-our-courses {
+    border: 2px solid #f16868;
+    color: #f16868;
+}
+.faq aside .btn-our-courses:hover {
+    color: white;
+    background-color: #f16868;
+    border: 2px solid #f16868;
+}
+.faq .aside-container {
+    width: 390px;
+}
+.faq .aside-container ul {
+    margin: 0 0 40px;
+    padding: 0;
+}
+.faq .aside-container ul li {
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+    opacity: 0.5;
+}
+.faq .aside-container ul li:hover {
+    opacity: 1;
+}
+.faq .aside-container ul a {
+    color: black;
+    font-family: inherit;
+    font-size: 18px;
+    opacity: 1;
+    text-decoration: none;
+    font-weight: bold;
+}
+.faq .aside-container ul a:focus {
+    color: black;
+}
+.faq main {
+    max-width: 60%;
+    float: right;
+}
+section#108{
+    width: 70%;
+    float: left;
+}
+.content2{
+    max-width: 70%;
+    float: right;
+}
+.faq h2 {
+    position: relative;
+    padding-bottom: 15px;
+    margin: 30px 30px 30px 0;
+    color: #1743a8;
+    font: 700 24px/33px "Open Sans";
+    padding-top: 45px;
+    text-align: left;
+}
+.faq h2:after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    display: block;
+    height: 1px;
+    width: 60%;
+    background: #dedede;
+    text-align: left;
+}
+.faq p {
+    margin: 10px 0;
+    max-width: 100%;
+    text-align: left;
+    color: #666666;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.faq p strong {
+    font-weight: bold;
+}
+.faq section ul {
+    margin: 40px 0;
+    padding: 0 0 0 30px;
+    list-style: none;
+    font-weight: 300;
+}
+.faq section li {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    color: #666666;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.faq section li:before {
+    content: '';
+    flex-shrink: 0;
+    display: block;
+    width: 6px;
+    height: 6px;
+    margin-right: 20px;
+    border-radius: 50%;
+    background-color: #f16868;
+}
+footer{
+    float: none;
+    background-color: #121212;
+    padding: 20px;
+}
+p.site-footer-copyright{
+    font-style: inherit;
+    font-size: 15px;
+    margin: 20px;
+    max-width: 100%;
+    color: #a0a0a0;
+    display: block;
+}
+div.menu-footer-menu-container{
+    width: 60%;
+    float: left;
+    padding-top: 10px;
+}
+ul.site-footer-menu{
+    margin-left: 10em;
+    float: none;
+    max-width: 80%;
+    padding-top: 5px;
+}
+li.menu-item{
+    color: lightgray;
+    max-width: 20%;
+    font-size: 17px;
+    font-weight: normal;
+    display: inline;
+    padding: 0 14px;
+    text-decoration: none;
+}
+a{
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+}
+span.social{
+    font-size: 15px;
+    color: #fff;
+    padding-left: 180px;
+}
+i.fa-facebook-f:hover{
+    color: red;
+}
+
+

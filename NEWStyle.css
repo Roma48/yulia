@@ -2,8 +2,8 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 header{
-    background-color: darkblue;
-    background-image: -webkit-linear-gradient(right, midnightblue, darkblue);
+    background-color: steelblue;
+    background-image: -webkit-linear-gradient(right, #0B3861, #384F8E);
     padding-bottom: 30px;
     float: none;
 }
@@ -16,11 +16,13 @@ div.container{
 div.col1{
     width: 30%;
     float: left;
+    padding-top: 10px;
+    margin-top: 5px;
 }
 div.col2{
     width: 70%;
     float: left;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 #logo {
     width: 30%;
@@ -348,4 +350,10 @@ span.social{
     font-size: 15px;
     color: #fff;
     padding-left: 180px;
+}
+i.fa-facebook-f:hover{
+    color: red;
+}
+i.fa-youtube:hover{
+    color: red;
 }

@@ -9,7 +9,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/v4-shims.js"></script>
 </head>
 <body>
-<?php  if($_SERVER['REQUEST_URI'] === '/php/' || $_SERVER['QUERY_STRING'] === 'page=1') : ?>
+<?php  if($_SERVER['REQUEST_URI'] === '/php/' || $_SERVER['QUERY_STRING'] === 'page=front') : ?>
     <?php include 'header-front.php'; ?>
 <?php else : ?>
     <?php include 'header.php'; ?>

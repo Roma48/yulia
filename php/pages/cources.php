@@ -1,4 +1,12 @@
 <main>
+    <section style="background-color: steelblue; background-image: -webkit-linear-gradient(right, #0B3861, #384F8E);">
+        <div class="container">
+            <div class="content">
+                <h1>10 CЕЗОН</h1>
+                <h2>У 10-му сезоні GeekHub пропонує 9 курсів. Розгляньте деталі кожного та реєструйтеся на той,<br> що підходить вам найбільше.</h2>
+            </div>
+        </div>
+    </section>
     <section>
         <div class="container">
             <div class="critique-container">
